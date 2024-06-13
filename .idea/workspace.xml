@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8264adb9-fb91-48ea-a7be-dcfbc3231418" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/lsn/io/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/lsn/io/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/lsn/io/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/lsn/io/Task3.java" afterDir="false" />
-    </list>
+    <list default="true" id="8264adb9-fb91-48ea-a7be-dcfbc3231418" name="Changes" comment="lsn tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,11 +109,24 @@
       <workItem from="1717843203835" duration="8113000" />
       <workItem from="1718024774806" duration="4923000" />
       <workItem from="1718110814096" duration="6303000" />
-      <workItem from="1718274570021" duration="1491000" />
+      <workItem from="1718274570021" duration="1877000" />
     </task>
+    <task id="LOCAL-00001" summary="lsn tasks">
+      <option name="closed" value="true" />
+      <created>1718277175692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718277175692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lsn tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="lsn tasks" />
   </component>
 </project>
