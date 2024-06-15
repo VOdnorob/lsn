@@ -7,7 +7,7 @@ public class Task3 {
         int n = Integer.parseInt(sc.nextLine());
         Map<Integer, List<Integer>> graph = new HashMap<>();
 
-        // Читаємо всі зв'язки і будуємо граф
+
         for (int i = 0; i < n; i++) {
             String[] edge = sc.nextLine().split(" ");
             int u = Integer.parseInt(edge[0]);
@@ -17,11 +17,9 @@ public class Task3 {
             graph.computeIfAbsent(v, k -> new ArrayList<>()).add(u);
         }
 
-        // Використовуємо набір для зберігання відвіданих вершин
         Set<Integer> visited = new HashSet<>();
         int numComponents = 0;
 
-        // Проходимо по всіх вершинах і знаходимо окремі компоненти
         for (int vertex : graph.keySet()) {
             if (!visited.contains(vertex)) {
                 numComponents++;
@@ -29,7 +27,6 @@ public class Task3 {
             }
         }
 
-        // Враховуємо ізольовані вершини
         for (int vertex : graph.keySet()) {
             if (!visited.contains(vertex)) {
                 numComponents++;
