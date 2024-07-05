@@ -10,10 +10,10 @@ public class Main {
         Task2 task2 = new Task2();
         Task3 task3 = new Task3();
         task1.run(sc);
-        System.out.println("Task 1: was end");
+        System.out.println("Task 1: finished");
         task2.run(sc);
-        System.out.println("Task 2: was end");
+        System.out.println("Task 2: finished");
         task3.run(sc);
-        System.out.println("Task 3: was end");
+        System.out.println("Task 3: finished");
     }
 }
