@@ -31,9 +31,11 @@ public class Task2 {
         for (int number : numbers) {
             int complement = targetSum - number;
 
-            while (frequencyMap.getOrDefault(complement, 0) > 0) {
+            int complementCount = frequencyMap.getOrDefault(complement, 0);
+
+            while (complementCount > 0) {
                 pairs.add(new int[]{Math.min(number, complement), Math.max(number, complement)});
-                frequencyMap.put(complement, frequencyMap.get(complement) - 1);
+                complementCount--;
             }
 
             frequencyMap.put(number, frequencyMap.getOrDefault(number, 0) + 1);
